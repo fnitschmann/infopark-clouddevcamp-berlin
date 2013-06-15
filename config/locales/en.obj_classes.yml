@@ -51,3 +51,6 @@ en:
     hero_unit_widget:
       title: 'Hero unit widget'
       description: 'Widget that adds a hero unit to the page.'
+    announcement:
+      title: 'Announcement'
+      description: ''
