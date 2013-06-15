@@ -1,0 +1,17 @@
+%hr
+
+%footer
+  .row
+    .span9
+      - @footer_links.each do |link|
+        = link_to(cms_path(link), target: '_blank') do
+          = link.title
+
+        - unless @footer_links.last == link
+          &#xb7;
+
+    .span3
+      = render_cell(:login, :show, @page)
+
+      %span.pull-right
+        &copy; 2013 Company, Inc.
